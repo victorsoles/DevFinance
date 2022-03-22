@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
 /* Variaveis */
 :root {
-  --dark-blue: #363f5f;
-  --dark-very-blue: #00296b;
+  --dark-blue: #2f2e83;
+  --dark-very-blue: #7627f5;
 }
 /* Global */
 * {
@@ -146,7 +146,7 @@ header {
 }
 
 .card.total {
-  background: #014f86;
+  background: #018613;
   color: white;
 }
 
@@ -293,4 +293,18 @@ footer {
     gap: 2rem;
   }
 
+}
+
+.new{
+  background-color: #7627f5;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
