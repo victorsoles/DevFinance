@@ -308,3 +308,7 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
 }
+.new:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
