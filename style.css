@@ -17,7 +17,7 @@ html{
 }
 
 body {
-  background: rgba(245, 161, 64, 0.842);
+  background: rgba(245, 161, 64, 0.178);
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-  width: min(90vw, 800px);
+  width: min(120vw, 1100px);
   margin: auto;
 }
 /* Titles */
@@ -121,6 +121,32 @@ header {
   margin-top: 0;
 }
 /* Cards */
+.card.income {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+  border-radius: 0.25rem;
+}
+
+.card.income:hover {
+  background: #01a317;
+  color: #F0F2f5;
+}
+
+.card.expanse {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  color: var(--dark-blue);
+  border-radius: 0.25rem;
+}
+
+.card.expanse:hover {
+  background: #da2929;
+  color: #F0F2f5;
+}
+
 .card {
   background: #fff;
   padding: 1.5rem 2rem;
@@ -173,10 +199,11 @@ table tbody tr td:last-child {
 }
 
 table thead th {
-  background: #fff;
+  background: #c29ffa9d;
   font-weight: normal;
   padding: 1rem 2rem;
   text-align: left;
+  font-weight: bold;
 }
 table tbody td {
   background: #fff;
@@ -290,7 +317,7 @@ footer {
   #balance{
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
   }
 
 }
